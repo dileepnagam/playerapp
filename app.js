@@ -64,4 +64,3 @@ app.delete("/players/:playerId/", async (request, response) => {
   await db.run(deleteBookQuery);
   response.send("Player Removed");
 });
-
